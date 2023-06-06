@@ -1,0 +1,51 @@
+{
+	"version": 2,
+    "title":"Ultra Marine",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"color": "#f0f0f0",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#1e1e1e",
+					"name": "Contrast"
+				},
+				{
+					"slug": "primary",
+					"color": "#286DF6",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#3979F9",
+					"name": "Secondary"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "Transparent"
+				}
+			]
+		}
+	},
+	"styles": {
+		"css": ".sidebar{ background: #fff; border-radius: 4px;}",
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--base)",
+					"background": "var(--wp--preset--color--secondary)"
+				},
+				":hover": {
+					"border": {
+						"color": "var(--wp--preset--color--primary)"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"color": "#f0f0f0",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#1e1e1e",
+					"name": "Contrast"
+				},
+				{
+					"slug": "primary",
+					"color": "#D917B2",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#E036BE",
+					"name": "Secondary"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "Transparent"
+				}
+			]
+		}
+	},
+	"styles": {
+		"css": ".sidebar{ background: #fff; border-radius: 4px;}",
+		"elements": {
+			"button": {
+				"border": {
+					"color": "var(--wp--preset--color--transparent)",
+					"width": "4px",
+					"style": "solid",
+					"radius": "4px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--contrast)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "700"
+				},
+				"shadow": "var(--wp--preset--shadow--natural)",
+				":hover": {
+					"border": {
+						"color": "var(--wp--preset--color--secondary)"
+					}
+				}
+			}
+		}
+	}
+
+
+}
+
