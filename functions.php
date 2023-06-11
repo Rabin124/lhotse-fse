@@ -81,8 +81,3 @@ require_once get_theme_file_path( 'inc/register-block-styles.php' );
 
 // Block pattern and block category examples.
 require_once get_theme_file_path( 'inc/register-block-patterns.php' );
-
-/**
- * Load core file.
- */
-require_once get_template_directory() . '/inc/pattern-category.php';
