@@ -76,6 +76,16 @@ require_once get_theme_file_path( 'inc/filters.php' );
 // Block variation example.
 require_once get_theme_file_path( 'inc/register-block-variations.php' );
 
+// Add inc inside folders 6.11.2023.
+// require_once get_theme_file_path( 'admin/' );
+// require_once get_theme_file_path( 'block-styles/' );
+// require_once get_theme_file_path( 'blocks/' );
+// require_once get_theme_file_path( 'compatability/' );
+// require_once get_theme_file_path( 'extensions/' );
+// require_once get_theme_file_path( 'utilities/' );
+
+
+
 // Block style examples.
 require_once get_theme_file_path( 'inc/register-block-styles.php' );
 
